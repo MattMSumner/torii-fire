@@ -11,7 +11,7 @@ export default Ember.Object.extend({
         if (error) {
           reject(error);
         } else {
-          resolve({authData: authData});
+          resolve(authData);
         }
       });
     });

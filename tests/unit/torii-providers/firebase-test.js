@@ -53,7 +53,7 @@ test("#open when firebase.authWithOAuthPopup returns authData", function(assert)
     provider.open({authWith: "successProvider"}).then(function(authData) {
       assert.ok(firebaseMock.authWithOAuthPopup.calledWith("successProvider"));
 
-      assert.equal(authData.authData, authDataMock);
+      assert.equal(authData, authDataMock);
     });
   });
 });

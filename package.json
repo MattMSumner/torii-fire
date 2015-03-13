@@ -1,7 +1,7 @@
 {
   "name": "torii-fire",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.1.0",
+  "description": "A torii provider for firebase authentication",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +11,14 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MattMSumner/torii-fire.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Matthew Sumner, Justin Kenyon and contributors",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.0",
@@ -30,10 +33,16 @@
     "ember-cli-qunit": "0.3.9",
     "ember-cli-uglify": "1.0.1",
     "ember-data": "1.0.0-beta.15",
-    "ember-export-application-global": "^1.0.2"
+    "ember-export-application-global": "^1.0.2",
+    "ember-sinon": "0.0.3",
+    "torii": "0.2.3"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "torii",
+    "oauth",
+    "authentication",
+    "firebase"
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"

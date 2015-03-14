@@ -1,6 +1,15 @@
 # Torii-fire
 
-This README outlines the details of collaborating on this Ember addon.
+This addon adds a [torii-provider] for authenticating firebase applications. It
+requires that you also have the firebase adapter, [emberfire], and [torii]
+addons.
+
+Here's an [example-app] showing how to use torii-fire in your application.
+
+[torii-provider]: https://github.com/Vestorly/torii/#providers-in-torii
+[emberfire]: https://github.com/firebase/emberfire
+[torii]: https://github.com/Vestorly/torii
+[example-app]: https://github.com/MattMSumner/chattr
 
 ## Installation
 

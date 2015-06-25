@@ -20,6 +20,9 @@
   },
   "author": "Matthew Sumner, Justin Kenyon and contributors",
   "license": "MIT",
+  "peerDependencies": {
+    "torii": "^0.2.3"
+  },
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.0",
     "ember-cli": "0.2.0",
@@ -34,8 +37,7 @@
     "ember-cli-uglify": "1.0.1",
     "ember-data": "1.0.0-beta.15",
     "ember-export-application-global": "^1.0.2",
-    "ember-sinon": "0.0.3",
-    "torii": "0.2.3"
+    "ember-sinon": "0.0.3"
   },
   "keywords": [
     "ember-addon",

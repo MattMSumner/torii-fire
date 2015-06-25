@@ -48,7 +48,7 @@ Next let's setup our application route, run `ember g route application` and make
 the following changes to the template and route:
 
 ```handlebars
-// app/templates/application.hbs
+{{! app/templates/application.hbs }}
 <h2 id="title">Welcome to torii-fire!</h2>
 
 {{#if session.isAuthenticated}}
@@ -86,6 +86,8 @@ Now that we have our route setup calling `open`, `fetch` and `close` we'll need
 to create our torii adapter to define those behaviours:
 
 ```js
+// app/torii-adapters/application.js
+
 import Ember from "ember";
 
 export default Ember.Object.extend({

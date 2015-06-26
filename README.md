@@ -14,7 +14,7 @@ Here's an [example-app] showing how to use torii-fire in your application.
 ## Installation using ember-cli
 
 ```bash
-npm install torii --save-dev
+ember install torii-fire
 ```
 
 ## Torii sessions

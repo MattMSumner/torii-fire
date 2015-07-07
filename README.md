@@ -1,3 +1,15 @@
+# Warning
+
+This project [has been merged] into [emberfire]. If your using the latest
+version of emberfire then you don't need this addon to use the torii-provider
+for firebase.
+
+[has been merged]: https://github.com/firebase/emberfire/pull/256
+[emberfire]: https://github.com/firebase/emberfire
+
+As a result this addon is no longer maintained but remains for anyone using an
+older version of emberfire.
+
 # Torii-fire
 
 This addon adds a [torii-provider] for authenticating firebase applications. It

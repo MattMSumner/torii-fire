@@ -1,6 +1,6 @@
 {
   "name": "torii-fire",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "A torii provider for firebase authentication",
   "directories": {
     "doc": "doc",
